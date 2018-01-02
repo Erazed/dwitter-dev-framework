@@ -1,1 +1,3 @@
-//document.write('<script src="dweets.test.js"></script>');
+$.get("/dweets", function(data){
+    console.log(data);
+});
